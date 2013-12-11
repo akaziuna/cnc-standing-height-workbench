@@ -13,12 +13,14 @@
       "version": "web",
       "toc": true
     },
-    "epub": {},
-    "mobi": {},
+    "epub": {
+    },
+    "mobi": {
+    },
     "html": {
       "toc": true
     }
   },
   "theme": "oreillymedia/atlas_tech1c_theme",
-  "title": "atlas book skeleton"
+  "title": "CNC Standing Height Workbench"
 }
