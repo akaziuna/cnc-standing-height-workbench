@@ -1,0 +1,455 @@
+= Open Source Parametric Standing Height CNCed Workbench Tutorial
+
+****
+[role="lede"]
+How to make bespoke standing height workbenches using AtFab's parametric "One to Several" table generation processing program to create custom CNC furniture for your shop or office. 
+
+[role="byline"]
+Anna Kaziunas France
+****
+
+image::images/MAKE_Workbench.jpg[width="60%"]
+
+NOTE: Needs Intro
+
+Why a standing workbench? In a review of commercially available standing desks, http://thewirecutter.com/reviews/the-best-standing-desks/[The Best Standing Desks], Mark Lukack states sums up the current popular view on "sitting vs standing":
+
+[quote, Mark Lukack, The Wirecutter August 2013]
+____
+There is a staggering amount of convincing research about the perils of sitting. In the scientific world, it’s almost become like how the community views global warming, smoking, and sugar consumption— overwhelming consensus. Sitting is bad for you. You are slowly killing yourself by sitting all day long.
+____
+
+Personally, I feel that "movement" throughout the day is more important than simply "standing". I prefer to stand / lean when wrenching on machines and disassembling extruders. I find that my back and neck are always at the worst possible angle for this type of activity when sitting in a desk chair.  
+
+== BOM
+
+* (1) CNC Router (4' x 8' or 4' x 6' cutting area)
+* (2) 4' x 8' sheets of "A" plywood with a decent veneer.
+* Sandpaper - 80 and 150 grit
+* Stain (I used Minwax® Wood Finish™ Oil Based Stain in "Ebony")
+* Pre-Stain Treatment (I used Minwax Pre-Stain - optional)
+* Stain brush
+* Tack cloth
+* Dropcloth
+* Rag 
+* Work gloves 
+* Latex or Nitrile gloves
+
+The rest of the parts depend on how you choose to assemble the bench.  You can used dowels and glue or just glue or just screws or all of the above. 
+
+* If gluing, clamps are needed
+* If screwing, a drill and screws are needed
+* If using dowels, you need dowels
+
+NOTE: Harbor Freight (http://www.harborfreight.com/) is a great place to buy cheap clamps.  I used Locktite Power Grab clear glue for this project with a caulk gun, but you can use any clear wood glue.  
+
+My joints fit very tightly together, so I only needed glue for the legs and the feet.  I didn't use the dowels or the screws.  
+
+== Where to Get CNC Access? 
+
+Machine access is a important part of this project.  You will need to use a CNC machine to cut these files and complete this project. A machine with a 4' x 8' (1219.2mm x 2438.4mm) bed is preferred, as plywood commonly comes in 4' x 8' sheets. The larger the sheet size, the easier it is to arrange the parts and less waste material generated. However, you could make this design work on with 4' x 6' cutting area.  
+
+There are numerous http://fab.cba.mit.edu/about/labs/[FabLabs], http://makerspace.com/makerspace-directory[Makerspaces], http://hackerspaces.org/wiki/List_of_ALL_Hacker_Spaces[Hackerspaces] and http://www.techshop.ws/locations.html[TechShops] popping up all over the world where you can access a large CNC router.  Check out their directories for how to get trained and get machine access near you so you can start busting out (almost) infinitely configurable furniture.
+
+== 1. Measure Your Workspace 
+
+The MAKE Providence office has some funky wall features, with two pipes jutting out of the floor in the exact area I wanted to put two of the workbenches. I considered building custom tables to enclose the pipes. In the end, I decided that reconfigurability was important for our office.  I created two workbenches that span the wall between the pipes, no custom cuts needed. 
+
+My version of this workbench extends 1042mm above the ground. If you make them taller, check you wall to make sure your light switch (if on the same wall) is still accessible. 
+
+image::images/Measuring_9616.jpg[width="60%"]
+
+image::images/Measuring_9619.jpg[width="60%"]
+
+image::images/Measuring_9655.jpg[width="60%"]
+
+To get a feel for how the benches would occupy space, I measured the bench width from the wall and marked the measurements with tape.  I then marked off the area with more tape and took measurements. 
+
+== 2. Design, Ergonomic and Materials Decisions
+
+The biggest factor to take into consideration when designing customized standing height tables is your individual measurements. Where do your arms rest when you are standing? This determines the height of the tables.  The table height should be at or just below bent elbow height.  
+
+I am 5'7" and 41" (1042mm) tall is perfect for me, but you should measure yourself to see what is right for you - after all, this is a design is parametric and completely customizable (with a little CAD work). 
+
+=== Determine Table Dimensions
+
+What size do your tables need to be to fit into your workspace? Determine the dimensions of your table or tables and record them.  You will need to enter them into the parametric AtFab app.  
+
+.Anna's Standing Height Workbench Dimensions
+[format="csv",width="30%",cols="2"]
+|======
+Table Width,600mm
+Table Length,1520mm
+Table Height,1042mm 
+|======
+
+.Image http://www.wired.com/images_blogs/wiredscience/2012/09/mf-standing-deskb_f.jpg[courtsey of Wired]
+image::images/Standing_Desk_Ergonimic.jpg[width="60%"]
+
+== 2. Procure Your Materials 
+
+These workbenches can be machined in many different materials. I optimized my files for 18.5mm thick plywood. Plywood has some advantages over other materials for this type of project, it has a little give to it.  If you make your joints a little too tight, or if you plywood has a lot of variable thickness, you can use a mallet to pound in the tight joints and the wood will give enough to accommodate it. 
+
+To make one workbench you will need two sheets of 4' x 8' plywood, there will be some waste, but some of the material will be used for tests and you can use the scraps for another project.  
+
+=== Check for straight boards
+
+Regardless of where you purchase your wood, take the time to look down the length of each sheet of plywood.  Make sure that it is straight.  If the wood is bent, you will run into issues with your furniture fitting together properly. 
+
+I have had good results with Home Depot Pure Bond Plywood (http://www.homedepot.com/p/Project-Panels-Whole-Piece-Birch-Domestic-Plywood-Price-Varies-by-Size-165921/100077837#[Birch - $47.97] and http://www.homedepot.com/p/PureBond-23-32-in-x-4-ft-x-8-ft-Poplar-Plywood-770579/203335841#.UrdsQmRDsug[Poplar - $39.97]) The Birch veneer looks a bit nicer, oak plywood would also be a good choice. This type of plywood is commonly available.  Don't buy plywood that does not have a nice veneer, you will be disappointed with the end result. 
+
+Avoid wood with visible "voids" or places where the laminated wood has come apart and left a hole, especially on the top surface.  Plywood of this type typically has one "A" side (nice surface, no knots) and one "B" side that is acceptable, but not quite as nice.  When the furniture is finished, you will only see one side. Cut with the "A" side up.  Make sure one side is perfect, don't worry about the other side, unless it has a lot of voids. 
+
+Don't be afraid to ask the store staff for help. I have found that most employees at stores like Home Depot and Lowes will be happy to help you sort through the stack and move pallets for you if you are not finding straight or plywood that is in good condition.  Wood is expensive, don't buy crappy wood.  Take the time to sort through the stack.    
+
+image::images/HomeDepotPallets.jpg[width="60%"]
+
+=== Get same type of wood
+
+If possible, get all your wood for your project at once and get all the sheets of plywood from the same pallet.  Thickness can differ dramatically from sheet to sheet, but will vary less within the same pallet.  Also, the wood veneers will differ slightly when wood is selected from different pallets.  It will be more difficult to match the grain and the wood may not take stain or tearout in the same way.  More on that later.
+
+I had to select wood from two different pallets for this project and I had very different results, especially with tearout from the different wood types, same Home Depot skew.  Natural materials have variation.  Keep this in mind when selecting wood. 
+
+=== Measure at store
+
+As you pull sheets of the pallet and look for voids and check for straightness, measure the thickness of the plywood with digital calipers. If two sheets are radically off (by a mm in thickness), choose another sheet that is closer to the first sheet's dimensions. 
+
+== 3. Measure Your Plywood (yes - again)
+
+[quote, Wood Magazine (online no author attribution) 2013]
+____
+Plywood has unreliable stated thickness. The tendency for hardwood plywood panels to vary in thickness from their stated dimension can be frustrating. If you buy a 3/4"-thick panel, for instance, it may stray 1/64" to 1/32" from that thickness.
+____
+Source http://www.woodmagazine.com/materials-guide/lumber/what-you-need-to-know-about-plywood/[Wood Magazine]
+
+Measure your material again with digital calipers.  This is important for proper joint fit. Make a little chart for yourself.  Measure the thickness of each piece of plywood at several points along the length / width if the material.  There will be variations.  Record your measurements.  
+
+For the first workbench, there were only a few straight sheets left. One sheet was almost a millimeter thicker than the other. I bought them anyway and my design turned out ok, but it is something to be aware of.  
+
+.Variable Plywood Thickness (Anna's Wood):
+
+* Sheet 1 ranged from: 17.5 - 17.8
+* Sheet 2 ranged from: 18.3 - 18.5 (absolute max, 18.3 most common width)
+
+The material thickness is an necessary input value for the AtFab parametric app and will determine if your joints are big enough to fit together.  It is better to be a little too tight than too loose.  However, if your joints are too small for the pieces to slot together, you will be in trouble.  You can always fill cracks with glue, use the max thickness measurement to input into the App. 
+
+image::images/calipers.jpg[width="60%"] 
+
+== 4. Create CAD Files
+
+Next you need to design your table using Computer-Aided Design software (CAD).  I used a Alpha version of AtFab Parametric "One to Several" Table which currently runs on the desktop in Processing, but is slated to be available soon online at the AtFab site (http://atfab.co/).  
+
+=== AtFab Parametric "One to Several" Table 
+
+This table, created by award-winning architects Filston and Rohrbacher (http://filson-rohrbacher.com/) be configured into many different variations by using sliders on the Processing app.  
+
+.AtFab "One to Several" Table 
+image::images/one-to-several.jpg[width="60%"]
+
+.Some variations of the "One to Several" Table 
+image::images/oneToSeveral.jpg[width="60%"]
+
+=== The Online Apps (coming soon): 
+* http://www.filson-rohrbacher.com/atfab_002_trans.html
+
+NOTE:  NOTE TO MAKE EDITORS - Anna asked for permission to host the "One to Several" table Processing code in this project's Github repo.  Which should be no problem, because this is an OSHW project, awaiting a "official" response. We can define a link for the article and link up to the full tutorial later.  
+
+==== Parametric Processing code: 
+
+To be able to run the Processing sketch you need to install the correct version and some dependencies:
+
+.Install Processing and the dependencies
+* Developed in Processing 1.5.1 - download from processing.org
+* Needs the ControlIP5 library: http://www.sojamo.de/libraries/controlP5/
+* Download ControlIP5: https://code.google.com/p/controlp5/downloads/detail?name=controlP5-1.5.2.zip&can=2&q=
+
+.One to Several Table Processing Sketch
+image::images/Processing_Sketch2.png[width="60%"]
+
+.AtFab Parametric Design App
+image::images/AtFab_ParametricDesignApp2.png[width="60%"]
+
+.Values Entered int AtFab App
+[format="csv",width="30%",cols="2"]
+|======
+Table_Width,600mm
+Table_Length,1520mm
+Table_Height,1042mm 
+Constant_Ratio, no
+Lock_Proportion, no
+Dowel Holes, yes
+Sniglet Rows, 5.0
+Material Thickness, 18.5mm
+Dowel Diameter, 6.5
+|======
+
+I entered my values into the app and clicked "save" to export my custom design to a DXF file.  
+
+==  Bounding Box 
+
+In the past, I have had issues with files rescaling slightly when I opening them up in another program. The best way to avoid this is to open the exported DXF in our favorite CAD program and then draw and overlay a box that is the same dimensions as your table top to verify the dimensions are what you specified.  
+
+== Lengthen Legs
+
+Use your favorite CAD program to lengthen the legs of the table to 41" (1042mm).  The parametric app is awesome, but it doesn't yet lengthen the table legs.  You'll need to do in manually in a CAD program.  
+
+Anne Filston recommended lengthening the legs this way:
+
+image::images/AtFAB_TBL-height_diagram.png[width="60%"]
+
+I drew a box around the table to the height dimension I was looking for and then moved the vectors. 
+
+image::images/movingLegs2.png[width="60%"]
+image::images/movingLegs.png[width="60%"]
+
+Make sure to join all the vectors into one continuous shape.  This is necessary for generating the machine toolpaths.  If you are cutting these files on a ShopBot, you can also use the excellent "Join" tool in PartWorks.  
+
+== Rearrange the parts
+
+When the vectors are exported, the parts need to be rearranged in order to fit on a 4' x 8' sheet of plywood.  
+
+.4' x 8' sheet dimensions shown in white
+image::images/ImportedVectorsPartworks.png[width="60%"]
+
+== PartWorks
+
+If you are cutting on a ShopBot and are using PartWorks, make sure the Join vectors.
+
+.Canvas Size (sheet size): 
+* Width: 8ft = 96in = 2438.4mm 
+* Height: 4ft = 48in = 1219.2mm 
+* Set up your file in mm to avoid any possible resizing issues. The DXF you export from the app is in mm.  
+
+Use an offset tool to create a 25.4 border inside the job / canvas dimensions to avoid hitting the screws. You will need to use to use screws to secure the wood to the bed of the machine (unless you have a vacuum hold down system for your machine).  
+
+.Leg and test cut layout
+image::images/LegLayout2.png[width="60%"]
+
+.Top and crosspeice layout
+image::images/TopLayout.png[width="60%"]
+
+While there is some wasted space with this layout, you can use the excess to do your test cuts to verify the fit or reuse the scrap for another job. If cutting more than one table, utilize the extra space for additional crosspieces and feet *after making the test cuts*. 
+
+== 5. Program Toolpaths
+
+Next you need to think about how you want to cut your tables. If you are adding a decorative image etched into the surface of the wood (like the MAKE robot in this project) or drill holes, you will need to create additional tool paths.  I also highly recommend you download the machining and assembly instructions that come with the default version of the AtFab One to Several Table from the OpenDesk site: https://www.opendesk.cc/atfab/one-to-several-table These directions clearly specify which toolpaths are "inside" and which are "outside".
+
+=== Make Cutting Decisions
+
+If you are short on machining time or want to simplify this project, you only need to cut two toolpaths.  There is one toolpath for a inside cut (the "cross" notches on the table top) and one outside cut for the rest of the file.  Inside and outside cuts refer to what side of the vector the bit cuts on.  The tool removes a significant portion of material, so it is important that you program your cuts properly or the parts won't fit together. 
+
+=== Plan Toolpaths
+
+If you plan to use dowels to attach your parts, you will need to drill holes for the pegs to slot into, this creates an extra toolpath and increases machining time.  I didn't use the dowels for assembly, although I did machine the holes. 
+
+Toolpaths must be cut in the proper order.  You don't want to cut out a part and then attempt to etch part of the loose part away or drill holes into it.  You should then etch away material first, drill your holes first, then do your inside cuts, followed by the outside cuts. 
+
+You should be able to preview your toolpaths in your machine file preparation software.  As I mentioned above, I used PartWorks to create my tool paths.  This is vital for understanding proper bit selection.  If you have a part with tiny features or small curves, you need to make sure that your bit is small enough to get into these spaces.  If the tool is too large, it will obliterate your design.  
+
+=== Bit selection
+
+Here are the bit sizes I used for each toolpath in this file.
+
+.Five Toolpaths and bit sizes
+. Test cuts 1/4'
+. Robot pocket 1/8"
+. Drill 1/4"
+. Inside profile 1/4"
+. Outside profile 1/4"
+
+All bits used were downcut bits. More on that below. 
+
+I hate cutting off tabs, but they are necessary to hold the cut pieces in place and keep them from moving around when cutting. Tabs are also necessary to maintain some of the structural integrity of the overall sheet of plywood, which will look like artsy Swiss cheese by the time you are done cutting.   
+
+However, there's a way around the tabs - if you are cutting wood. Use a "downcut" or "downsprial" bit.  These bits force the chips down into the bed, packing around the cut piece and holding it in place.  I cut all my wooden parts this way.   
+
+NOTE: More on this later in the online version.
+
+=== Feeds & Speeds
+
+Feeds and speeds are determined by a mathematical formula to give you basic safe settings for the bit used and material cut. As you gain experience you can push the tool harder to reduce cutting time.  You want to move the tool as fast as the chipload for your bit will allow, without breaking your bit or sacrificing finish quality as heat will build up and can catch fire if you move the tool too slowly. 
+
+NOTE: More on this later in the online version. 
+
+.The feeds and speeds I used on a ShopBot PRS Standard:
+* 1/4" Endmill: 
+** Stepover: 0.125"
+** Spindle Speed: 12000 r.p.m. (at 1400 I was getting too much screetching)
+** Feed Rate: 3.2 inches/sec 
+** Plunge Rate: 1.0 inches/sec
+* 1/8" Endmill: 
+** Stepover: 0.125"
+** Spindle Speed: 14000 r.p.m.
+** Feed Rate: 3.27 inches/sec 
+** Plunge Rate: 1.1 inches/sec
+
+NOTE: These are preliminary settings, I used these to cut, but I may optimize later for the online version. 
+
+=== Chip Load
+
+Chipload is the amount of material removed with each rotation of the bit.  The smaller the bit, the less material it can remove with each pass. The tool manufacture Onsrud is a fantastic source of information on chip load for different types of bits: http://www.onsrud.com/plusdocs/Doc/index.html?model.code=FeedSpeeds
+
+NOTE: More on chipload and feeds and speeds will be added for the online tutorial
+
+=== Create Toolpaths
+
+I am not going to get into how to create toolpaths in PartWorks, ShopBot has already done a fantastic job of that on the tutorials section of their site: http://www.shopbottools.com/msupport/tutorials.htm
+
+== 6. Test Cuts
+
+Cut your test cut toolpath first. You many need to adjust your file to get your parts to fit together properly. If your test cuts don't fit together on the first try - see the "dial in fit" section below. 
+
+=== Dial In Fit
+
+Slot your test pieces together.  According to Filston and Rohrbacher's documentation, you should be able to fit 1-3 business cards through the joints when they are slotted together. Refer to their documentation for more details: https://www.opendesk.cc/atfab/one-to-several-table 
+
+image::images/Routing_TestCuts_9725.jpg[width="60%"]
+
+NOTE: Tips from Anne Filston - Anna needs to verify, she had a little trouble making this actually work in practice.  Don't publish this quote, from a private email. 
+
+[quote, Tips from Anne Filston, via a private email]
+----
+To dial in the right fit, you'll actually need to scale up the entire CAD file by a very small increment. Measure the width of your "plus" opening and the material thickness, subtract the "+" dimension from the material thickness dimension and divide by half. Then scale your drawing by that number. This should get you in the ballpark.
+----
+
+== 7. Cut Files
+
+Once you are satisfied with your test fits, you need to cut your files.  This is the fun part.  Go ShopBot go!  Remember to wear eye and ear protection.  
+
+Set up your machine, put the appropriate bit in the collet and run your toolpaths in the correct cutting order.  
+
+Note: will post movie files of routing MAKE robot online. 
+
+IMG_9761.MOV
+IMG_9759.MOV
+
+image::images/Routing_9791.jpg[width="60%"]
+image::images/Routing_9793.jpg[width="60%"]
+image::images/Routing_9795.jpg[width="60%"]
+
+image::images/Routing_Pocket_Robot_9782.jpg[width="60%"]
+
+== 8. Finishing
+
+Finishing your plywood will make a huge difference in the appearance of your completed table.  To give basic plywood tha appearance of reclaimed walnut, try the finishing technique below.  First sand the piece, there will be rough edges on the bottom side of the cuts from the downspiral bit.  
+
+image::images/Final_Cut_Pieces_9819.jpg[width="60%"]
+
+=== Sand!
+
+I used 80 grit sandpaper for sanding off the minor tearout caused by the downspiral bit.  The front edges were perfectly clean.  I used 80 and 150 grit sandpaper to smooth out the pocket cut robots and to smooth the top surface where needed.    
+
+TIP: Use the foot piece as a sanding block.  Wrap the sandpaper around the block and sand away, it will make your job much easier.  
+
+image::images/Sanding_9941.jpg[width="60%"]
+image::images/Sanding_9953.jpg[width="60%"]
+image::images/Sanding_Robot_9955.jpg[width="60%"]
+
+==== About Tearout
+
+image::images/Routing_Knot_9961.jpg[width="60%"]
+
+Sometimes plywood can tear out or splinter along the edge of the cutting tool.  The wood fibers are all going in the same direction and the bit can cause them to "tearout". Using sharp tools will help to minimize tearout.  
+
+For the purposes of this project, we don't need to worry too much about tearout on the bottom of our cuts because they will be hidden.  
+
+However, for the purposes of illustrating the tearout, I'll discuss it briefly. It is also the case that plywood from different pallets, but technically the "same" type plywood can tear out completely differently when you rout it. 
+
+NOTE: In the online version, talk more about downsprial, upspiral and compression bits and the advantages / disadvantages of each.  More about tooling.  
+
+.Downcut bit, no tearout, just minor fibers to sand away
+image::images/DowncutBottom_9901.jpg[width="60%"]
+
+.Downcut bit, no tearout, just minor fibers to sand away
+image::images/TearOut_9981.jpg[width="60%"]
+
+.Technically the "same" plywood, but from a different pallet. There is some tearout, but this is the "bottom" side of our cuts and will be completely hidden when the table is assembled. 
+image::images/TearOut2_9989.jpg[width="60%"]
+
+==== Tooling Marks
+
+You will also have some tooling marks from the router, sand them away or leave them, it's up to you.  
+
+image::images/ToolingMarks_9905.jpg[width="60%"]
+image::images/ToolingMarks_9931.jpg[width="60%"]
+image::images/ToolingMarks_9911.jpg[width="60%"]
+
+=== Stain or Paint
+
+Test your plywood on a scrap piece of each sheet before applying it to the finished pieces.  Different plywoods take stain differently and you want to make sure you love it before you commit to it. Use stain pre-treater to get a more even stain application. 
+
+.Oil based stains are messy - use a tarp
+image::images/TarpTime_9969.jpg[width="60%"]
+
+.Use a test piece before committing, I cut lots of extra feet
+image::images/StainFeet_0085.jpg[width="60%"]
+
+.Apply pre-stain with a brush according to instructions on can
+image::images/PreStainIMG_0069.jpg[width="60%"]
+
+.Brush on the ebony stain with a stain brush and then wipe away after a few minutes when wet for a dark, weathered look with visible grain
+image::images/Stain_0076.jpg[width="60%"]
+
+== 9. Assembly
+
+Assemble the workbench in this order or it won't fit together properly and you will get frustrated.  
+
+=== Cross pieces
+
+image::images/Assembly_Crosspieces_0138.jpg[width="60%"]
+
+=== Back + Cross Pieces 
+
+image::images/Assembly_0141.jpg[width="60%"]
+image::images/Assembly_0113.jpg[width="60%"]
+
+=== Side
+
+image::images/Assembly_0115.jpg[width="60%"]
+
+.If it is close, but too tight to slot together, give it some encouragement with a mallet.  I only had a hammer. 
+image::images/Assembly_Hammer_0147.jpg[width="60%"]
+
+=== Front
+
+image::images/Assembly_0121.jpg[width="60%"]
+
+=== Other Side
+
+image::images/Assembly_0123.jpg[width="60%"]
+
+=== Top
+
+image::images/Assembly_Top.jpg[width="60%"]
+
+=== Glue Legs and Feet
+
+image::images/Assembly_Glue_0125.jpg[width="60%"]
+image::images/Assembly_Glue_0134.jpg[width="60%"]
+
+==== Clamp
+
+image::images/Assembly_Clamp_0137.jpg[width="60%"]
+
+=== DONE!
+
+Stand back and admire your work!
+
+image::images/WorkbenchIMG_0190.jpg[width="60%"]
+image::images/WorkbenchIMG_0221.jpg[width="60%"]
+image::images/WorkbenchIMG_0223.jpg[width="60%"]
+image::images/WorkbenchIMG_0250.jpg[width="60%"]
+image::images/WorkbenchIMG_0267.jpg[width="60%"]
+image::images/WorkbenchIMG_0289.jpg[width="60%"]
+
+.Put your machines on it!
+image::images/WorkbenchIMG_0341.jpg[width="60%"]
+
+== 10. Get Rid of the Fumes
+
+Oil based stain stinks.  Light a match to burn off the fumes or better yet, light a whole bunch of candles.  Some other folk remedies include a bucket of water with vinegar and cotton balls soaked in almond extract to help adsorb the smell.
+
+== 11. Share Your Design
+
+We want to see your open source parametric table!  Send your designs, stories and experiences to anna at makermedia dot com.
+
