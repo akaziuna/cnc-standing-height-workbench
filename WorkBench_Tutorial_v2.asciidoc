@@ -10,7 +10,7 @@ Anna Kaziunas France
 
 image::images/MAKE_Workbench.jpg[width="60%"]
 
-NOTE: Needs Intro
+We just moved into the MAKE Providence office and we needed furniture. I decided to create a set of standing height plywood workbench to house our 3D printers and other CNC machines. I have access to a large CNC router and I wanted to design completely custom tables tailored to my measurements. I used http://www.filson-rohrbacher.com/atfab.html[AtFab's] parametric open source table configuration software to create a table to my personalized ergonomic dimensions.  I then adjusted the files in a CAD program, programmed the toolpaths and cut the files. Aftwards, the plywood was sanded and stained to give it the look of reclaimed / weathered wood and assembled by hand.  
 
 Why a standing workbench? In a review of commercially available standing desks, http://thewirecutter.com/reviews/the-best-standing-desks/[The Best Standing Desks], Mark Lukack states sums up the current popular view on "sitting vs standing":
 
