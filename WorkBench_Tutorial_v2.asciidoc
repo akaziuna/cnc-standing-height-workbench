@@ -14,14 +14,13 @@ image::images/MAKE_Workbench.jpg[]
 
 We just moved into the MAKE Providence office and we needed furniture. I decided to create a set of standing height plywood workbench to house our 3D printers and other CNC machines. I have access to a large CNC router and I wanted to design completely custom tables tailored to my measurements. I prefer to stand / lean when wrenching on machines and disassembling extruders. I find that my back and neck are always at the worst possible angle for this type of activity when sitting in a desk chair. 
 
-
 I used http://www.filson-rohrbacher.com/atfab.html[AtFab's] parametric open source table configuration software to create a table to my personalized ergonomic dimensions.  I then adjusted the files in a CAD program, programmed the toolpaths and cut the files. The plywood was then sanded and stained to give it the look of reclaimed / weathered wood and assembled by hand.  
 
 Although your costs will go down as you build additional tables, I built one table for $187.71, including all the necessary finishing supplies, tools and machine time. That’s $312.29 cheaper than a http://www.instructables.com/id/Maker-Bench/[Maker Bench]!  
 
 .Why not a "Maker Bench"?
 ****
-If you have been to a Maker Faire, by have seen the "Maker Table".  It's a sturdy workbench made from clamps, plywood and pipes.  It's an extremely durable table, but at ~$500 in materials, it's expensive.  Plus, it didn't have the look of finished furnature that I wanted for our office.  
+If you have been to a Maker Faire, by have seen the "Maker Table".  It's a sturdy workbench made from clamps, plywood and pipes.  It's an extremely durable table, but at ~$500 in materials, it's expensive.  Plus, it didn't have the look of finished furniture that I wanted for our office.  
 
 image::images/MakerTable.jpg[]
 
@@ -106,7 +105,7 @@ Machine access is a important part of this project.  You will need to use a CNC 
 
 There are numerous http://fab.cba.mit.edu/about/labs/[FabLabs], http://makerspace.com/makerspace-directory[Makerspaces], http://hackerspaces.org/wiki/List_of_ALL_Hacker_Spaces[Hackerspaces] and http://www.techshop.ws/locations.html[TechShops] popping up all over the world where you can access a large CNC router. Check out their directories for how to get trained and get machine access near you so you can start busting out (almost) infinitely configurable furniture.
 
-Yoou _could_ design your furnature and have someone else fabricate it for you, but where's the fun in that?  If you can't get machine access, you could use find independent fabricator through https://www.fabhub.io/[FabHub] or http://www.100kgarages.com/[100kGarages] to cut the files for you. 
+You _could_ design your furniture and have someone else fabricate it for you, but where's the fun in that?  If you can't get machine access, you could use find independent fabricator through https://www.fabhub.io/[FabHub] or http://www.100kgarages.com/[100kGarages] to cut the files for you. 
 
 === 1. Measure Your Workspace 
 
