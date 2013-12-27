@@ -4,7 +4,7 @@
 
 ****
 [role="lede"]
-How to make bespoke standing height workbenches using AtFab's parametric "One to Several" table generation processing program. Create custom open source CNC furniture for your shop or office or download and fabricate the MAKE Providence design. 
+How to make bespoke standing height workbenches using AtFab's parametric "One to Several" table generation Processing program. Create custom open source CNC furniture for your shop or office or download and fabricate the MAKE Providence design. 
 
 [role="byline"]
 Anna Kaziunas France
@@ -15,35 +15,11 @@ image::images/MAKE_Workbench.jpg[]
 We just moved into the MAKE Providence office and we needed furniture. I decided to create a set of standing height plywood workbench to house our 3D printers and other CNC machines. I have access to a large CNC router and I wanted to design completely custom tables tailored to my measurements. I prefer to stand / lean when wrenching on machines and disassembling extruders. I find that my back and neck are always at the worst possible angle for this type of activity when sitting in a desk chair. 
 
 
-I used http://www.filson-rohrbacher.com/atfab.html[AtFab's] parametric open source table configuration software to create a table to my personalized ergonomic dimensions.  I then adjusted the files in a CAD program, programmed the toolpaths and cut the files. Aftwards, the plywood was sanded and stained to give it the look of reclaimed / weathered wood and assembled by hand.  
+I used http://www.filson-rohrbacher.com/atfab.html[AtFab's] parametric open source table configuration software to create a table to my personalized ergonomic dimensions.  I then adjusted the files in a CAD program, programmed the toolpaths and cut the files. The plywood was then sanded and stained to give it the look of reclaimed / weathered wood and assembled by hand.  
 
-=== BOM Overview
+Although your costs will go down as you build additional tables, I built one table for $187.71, including all the necessary finishing supplies, tools and machine time. That’s $312.29 cheaper than a http://www.instructables.com/id/Maker-Bench/[Maker Bench]!  
 
-* Access to a CNC Router 
-** 4' x 8' cutting area is preferred (minimum 4' x 6')
-* Two 4' x 8' sheets of 3/4" (18.5mm) thick plywood
-* Sandpaper
-* Tack cloth
-* Dropcloth
-* Rag 
-* Work gloves 
-
-==== If Staining
-* Stain
-** I used Minwax® Wood Finish™ Oil Based Stain in "Ebony"
-* Pre-Stain Treatment (I used Minwax Pre-Stain - optional)
-* Stain brush
-* Latex or Nitrile gloves 
-
-The rest of the parts depend on how you choose to assemble the bench.  You can used dowels and glue or just glue or just screws or all of the above. Download the directions from AtFab for more information on table assembly: https://www.opendesk.cc/atfab/one-to-several-table
-
-* If gluing, clamps are needed
-* If using dowels, you need dowels
-* If screwing, a drill and screws are needed
-
-My joints fit very tightly together, so I only needed glue for the legs and the feet.  I did not use dowels or screws.  
-
-.Why not a "Maker Table"?
+.Why not a "Maker Bench"?
 ****
 If you have been to a Maker Faire, by have seen the "Maker Table".  It's a sturdy workbench made from clamps, plywood and pipes.  It's an extremely durable table, but at ~$500 in materials, it's expensive.  Plus, it didn't have the look of finished furnature that I wanted for our office.  
 
@@ -55,11 +31,45 @@ http://www.simplifiedbuilding.com/projects/maker-table/
 http://www.instructables.com/id/Maker-Bench/
 ****
 
+
+=== BOM Overview
+
+You can assemble and finish project in several different ways, an overview of the Bill of Materials is given here.
+
+.Software
+* CAD software that can manipulate vectors and open and export DXFs (Rhino, Illustrator, AutoCAD, Inkscape, etc.)
+* Processing 1.5.1
+* ControlIP5 library
+
+.Hardware
+* Access to a CNC Router 
+** 4' x 8' cutting area is preferred (minimum 4' x 6')
+* Two 4' x 8' sheets of 3/4" (18.5mm) thick plywood
+* Sandpaper
+* Tack cloth
+* Dropcloth
+* Rag 
+* Work gloves 
+
+.If Staining
+* Stain
+* Pre-Stain Treatment
+* Stain brush
+* Latex or Nitrile gloves 
+
+The rest of the parts depend on how you choose to assemble the bench.  You can used dowels and glue or just glue or just screws or all of the above. Download the directions from AtFab for more information on table assembly: https://www.opendesk.cc/atfab/one-to-several-table
+
+* If gluing, clamps are needed
+* If using dowels, you need dowels
+* If screwing, a drill and screws are needed
+
+My joints fit very tightly together, so I only needed glue for the legs and the feet.  I did not use dowels or screws.  
+
 ==== Costs (for my build)
 
 This project is more cost effective if you are making several tables or are utilizing your scrap wood for another project.
 
-I built four benches total, but if you were going to build and finish a single table in the same way I did, your costs would be around $187.71.  That's $312.29 cheaper than a Maker Table. 
+I built four benches total, but if you were going to build and finish a single table in the same way I did, your costs would be around $187.71.  That's $312.29 cheaper than a Maker Table.
 
 * *Sheet Goods*
 ** Two 4' x 8' sheets of 3/4" (~18.5mm) plywood with a decent-looking veneer: $47.97 each x 2 = $95.94 
