@@ -1,10 +1,10 @@
-= Open Source Parametric Standing Height CNCed Workbench Tutorial
+= MAKE Providence Standing Height CNC Workbench
 
-== Open Source Parametric Standing Height CNCed Workbench Tutorial
+== MAKE Providence Standing Height CNC Workbench Tutorial
 
 ****
 [role="lede"]
-How to make bespoke standing height workbenches using AtFab's parametric "One to Several" table generation processing program to create custom CNC furniture for your shop or office. 
+How to make bespoke standing height workbenches using AtFab's parametric "One to Several" table generation processing program. Create custom open source CNC furniture for your shop or office or download and fabricate the MAKE Providence design. 
 
 [role="byline"]
 Anna Kaziunas France
@@ -12,40 +12,83 @@ Anna Kaziunas France
 
 image::images/MAKE_Workbench.jpg[]
 
-We just moved into the MAKE Providence office and we needed furniture. I decided to create a set of standing height plywood workbench to house our 3D printers and other CNC machines. I have access to a large CNC router and I wanted to design completely custom tables tailored to my measurements. I used http://www.filson-rohrbacher.com/atfab.html[AtFab's] parametric open source table configuration software to create a table to my personalized ergonomic dimensions.  I then adjusted the files in a CAD program, programmed the toolpaths and cut the files. Aftwards, the plywood was sanded and stained to give it the look of reclaimed / weathered wood and assembled by hand.  
+We just moved into the MAKE Providence office and we needed furniture. I decided to create a set of standing height plywood workbench to house our 3D printers and other CNC machines. I have access to a large CNC router and I wanted to design completely custom tables tailored to my measurements. I prefer to stand / lean when wrenching on machines and disassembling extruders. I find that my back and neck are always at the worst possible angle for this type of activity when sitting in a desk chair. 
 
-Why a standing workbench? In a review of commercially available standing desks, http://thewirecutter.com/reviews/the-best-standing-desks/[The Best Standing Desks], Mark Lukack states sums up the current popular view on "sitting vs standing":
 
-[quote, Mark Lukack, The Wirecutter August 2013]
-____
-There is a staggering amount of convincing research about the perils of sitting. In the scientific world, it’s almost become like how the community views global warming, smoking, and sugar consumption— overwhelming consensus. Sitting is bad for you. You are slowly killing yourself by sitting all day long.
-____
+I used http://www.filson-rohrbacher.com/atfab.html[AtFab's] parametric open source table configuration software to create a table to my personalized ergonomic dimensions.  I then adjusted the files in a CAD program, programmed the toolpaths and cut the files. Aftwards, the plywood was sanded and stained to give it the look of reclaimed / weathered wood and assembled by hand.  
 
-Personally, I feel that "movement" throughout the day is more important than simply "standing". I prefer to stand / lean when wrenching on machines and disassembling extruders. I find that my back and neck are always at the worst possible angle for this type of activity when sitting in a desk chair.  
+=== BOM Overview
 
-=== BOM
-
-* (1) CNC Router (4' x 8' or 4' x 6' cutting area)
-* (2) 4' x 8' sheets of "A" plywood with a decent veneer.
-* Sandpaper - 80 and 150 grit
-* Stain (I used Minwax® Wood Finish™ Oil Based Stain in "Ebony")
-* Pre-Stain Treatment (I used Minwax Pre-Stain - optional)
-* Stain brush
+* Access to a CNC Router 
+** 4' x 8' cutting area is preferred (minimum 4' x 6')
+* Two 4' x 8' sheets of 3/4" (18.5mm) thick plywood
+* Sandpaper
 * Tack cloth
 * Dropcloth
 * Rag 
 * Work gloves 
-* Latex or Nitrile gloves
 
-The rest of the parts depend on how you choose to assemble the bench.  You can used dowels and glue or just glue or just screws or all of the above. 
+==== If Staining
+* Stain
+** I used Minwax® Wood Finish™ Oil Based Stain in "Ebony"
+* Pre-Stain Treatment (I used Minwax Pre-Stain - optional)
+* Stain brush
+* Latex or Nitrile gloves 
+
+The rest of the parts depend on how you choose to assemble the bench.  You can used dowels and glue or just glue or just screws or all of the above. Download the directions from AtFab for more information on table assembly: https://www.opendesk.cc/atfab/one-to-several-table
 
 * If gluing, clamps are needed
-* If screwing, a drill and screws are needed
 * If using dowels, you need dowels
+* If screwing, a drill and screws are needed
+
+My joints fit very tightly together, so I only needed glue for the legs and the feet.  I did not use dowels or screws.  
+
+.Why not a "Maker Table"?
+****
+If you have been to a Maker Faire, by have seen the "Maker Table".  It's a sturdy workbench made from clamps, plywood and pipes.  It's an extremely durable table, but at ~$500 in materials, it's expensive.  Plus, it didn't have the look of finished furnature that I wanted for our office.  
+
+image::images/MakerTable.jpg[]
+
+I chose to CNC these tables based on cost, my ability to access the necessary machines and the ability to create a custom design.
+
+http://www.simplifiedbuilding.com/projects/maker-table/
+http://www.instructables.com/id/Maker-Bench/
+****
+
+==== Costs (for my build)
+
+This project is more cost effective if you are making several tables or are utilizing your scrap wood for another project.
+
+I built four benches total, but if you were going to build and finish a single table in the same way I did, your costs would be around $187.71.  That's $312.29 cheaper than a Maker Table. 
+
+* *Sheet Goods*
+** Two 4' x 8' sheets of 3/4" (~18.5mm) plywood with a decent-looking veneer: $47.97 each x 2 = $95.94 
+** I used http://www.homedepot.com/p/Project-Panels-Whole-Piece-Birch-Domestic-Plywood-Price-Varies-by-Size-165921/100077837#[Home Depot Whole Piece Birch Domestic Plywood]
+* *Sanding Supplies:* 
+** 80 Grit Sandpaper (3 pack): $3.97
+** 100 Grit Sandpaper (3 pack): $3.97
+** Tack Cloth (3 pack): $2.67
+** Plastic Dropcloth: $2.98
+* *Staining Supplies:* 
+** Minwax 1-Qt. Pre-Stain Wood Conditioner: $11.97
+** Minwax 1-Qt. Oil-Based Ebony Wood Finish Interior Stain: $7.77
+** Rag: Free! Use an old t-shirt.
+** 2" Stain brush: $14.94
+** Latex or Nitrile gloves (to keep your hands clean): $7.97 
+* *Adhesives*
+** Loctite 9 fl.-oz. Clear Power Grab All-Purpose Adhesive: $3.65
+** 9" Caulking Gun: $3.29
+** Harbor Freight Clamp: $3.59
+* *CNC Access* 
+** This depends on where you live and what machines you are able to access.  Costs will vary widely. At AS220 Labs, where I cut these files, the cost for a block of machine time (2 hours) is $25.00. 
+
+*Total Cost: $187.71*
+
+You probably have some of this stuff laying around, so your costs may be far less.  The cost per table decreases as you build more of them.  
+
+If you have a fully equipped workshop, you probably only need the plywood and the machine time which *brings the cost down to $120.94*.
 
 NOTE: Harbor Freight (http://www.harborfreight.com/) is a great place to buy cheap clamps.  I used Locktite Power Grab clear glue for this project with a caulk gun, but you can use any clear wood glue.  
-
-My joints fit very tightly together, so I only needed glue for the legs and the feet.  I didn't use the dowels or the screws.  
 
 === Where to Get CNC Access? 
 
