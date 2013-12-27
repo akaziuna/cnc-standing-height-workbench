@@ -371,11 +371,10 @@ Note: will post movie files of routing MAKE robot online.
 IMG_9761.MOV
 IMG_9759.MOV
 
+image::images/Routing_Pocket_Robot_9782.jpg[]
 image::images/Routing_9791.jpg[]
 image::images/Routing_9793.jpg[]
 image::images/Routing_9795.jpg[]
-
-image::images/Routing_Pocket_Robot_9782.jpg[]
 
 === 8. Finishing
 
