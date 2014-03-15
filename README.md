@@ -5,9 +5,12 @@ This repo contains supplemental material for my MAKE tutorial, "CNC Maker Bench"
 
 Available Files
 -----------------------------
-VECTORS: The CNC Maker Bench configuration are available in several vector formats: DXF, EPS, AI. CRV files to be added shortly. 
+VECTORS: 
+The CNC Maker Bench configuration is available in several vector formats: DXF, EPS and AI. 
+CRV files to be added shortly. 
 
-PROCESSING APP: One to Several app is available for download with the permission of AtFab and Filson and Rohrbacher (http://filson-rohrbacher.com).
+PROCESSING APP: 
+The One to Several app is available for download with the permission of AtFab and Filson and Rohrbacher (http://filson-rohrbacher.com).
 
 LICENSE: CC BY-NC-SA 4.0
 -----------------------------
