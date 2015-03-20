@@ -7,14 +7,14 @@ Photo by Marie Kaziunas
 
 Available Files
 -----------------------------
+PROCESSING APP: 
+The One to Several app is provided with the permission of [AtFab](http://atfab.co) and [Filson and Rohrbacher](http://filson-rohrbacher.com).
+
 VECTORS: 
 The CNC Maker Bench configuration is available in several vector formats: DXF, EPS and AI. CRV files to be added shortly. 
 
 ![](img/CNCMakerBench_LEG_18.5mm.jpg)
 ![](img/CNCMakerBench_TOP_18.5mm.jpg)
-
-PROCESSING APP: 
-The One to Several app is provided with the permission of [AtFab](http://atfab.co) and [Filson and Rohrbacher](http://filson-rohrbacher.com).
 
 LICENSE: CC BY-NC-SA 4.0
 -----------------------------
